@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME DE</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h3>Insira algo camarada</h3>
+    <form action="#">
+        <!-- LABEL = TITULO, PODE REFERIR AO CLIQUE USANDO FOR -->
+        <label for="username_iguess">Seu nome ou algo do tipo: </label>
+        <!-- ID é ID, usado como REF EM JS OU NO ATRIB. for="" -->
+        <input type="text" id="username_iguess" name="username_iguessname" size="30" required> 
+        <br><br>
+        <label for="age">Idade: </label>
+        <input type="number" name="agename" id="age" required>
+        <br><br>
+        <label for="agedate">Em data também:</label>
+        <input type="date" name="agedatename" id="agedate" required>
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="emailname" id="email" required>
+        <br><br>
+        <label for="password">Senha: </label>
+        <input type="password" name="passwordnane" id="password" required>
+        <br><br>
+        <h4>Info das Coisas</h4>
+
+        <p>Tu Existe?</p>
+        <input type="radio" name="infoexistname" id="infoexist" required> <label for="infoexistyes">Sim </label>
+        <br>
+        <input type="radio" name="infoexistname" id="infoexist" required> <label for="infoexistno">Não </label>
+        <br><br>
+        <label for="password">Quando tu é alguem da vida?</label>
+        <br>
+        <input type="checkbox" name="timedayname" id="timeday"> 
+        <label for="password">Manhã </label>
+        <br>
+        <input type="checkbox" name="timeafternoonname" id="timeafternoon">
+        <label for="password">Tarde </label>
+        <br>
+        <input type="checkbox" name="timenightname" id="timenight">
+        <label for="password">Noite </label>
+        <br><br>
+        <label for="favgame">Jogo Favorito </label>
+        <br>
+        <select name="favgamename" id="favgame" required>
+            <option value="#" selected="selected" disabled>Nenhum</option>
+            <option value="sonic">Sonic The Hedgehog</option>
+            <option value="sonictwo">Sonic 2</option>
+            <option value="sonicthree">Sonic 3 & Knuckles</option>
+            <option value="supermariobros">Super Mario Bros.</option>
+            <option value="supermariobroslost">Super Mario Bros. 2(Lost Levels)</option>
+            <option value="supermariobrostwo">Super Mario Bros. 2(USA)</option>
+            <option value="supermariobrosthree">Super Mario Bros. 3</option>
+            <option value="supermarioworld">Super Mario World</option>
+            <option value="supermariokart">Super Mario Kart</option>
+            <option value="supermariosixfour">Super Mario 64</option>
+            <option value="antoblast">ANTONBLAST</option>
+            <option value="pizzatower">Pizza Tower</option>
+            <option value="cataniccastle">Catanic Castle</option>
+            <option value="nullscape">Nullscape</option>
+            <option value="grace">Grace</option>
+            <option value="voidful">Voidful</option>
+            <option value="dive">Dive (0.2a)</option>
+            <option value="ninekings">9 Kings</option>
+            <option value="tboi">The Binding of Isaac</option>
+            <option value="tboi_reb">The Binding of Isaac: Rebirth</option>
+            <option value="tboi_rep">The Binding of Isaac: Repetance</option>
+            <option value="mewgenics">Mewgenics</option>
+            <option value="balatro">Balatro</option>
+            <option value="ultrakill">ULTRAKILL</option>
+            <option value="tf2">Team Fortress 2</option>
+            <option value="cs2">Counter Strike 2</option>
+            <option value="cssource">Counter Strike Source</option>
+            <option value="leafblowersim">Leaf Blower Simulator</option>
+            <option value="adcaptalist">AdVenture Captalist</option>
+            <option value="adcommunist">AdVenture Communist</option>
+            <option value="cookieclicker">Cookie Clicker</option>
+        </select>
+        <br><br>
+        <input type="range" name="rangedname" id="ranged" min="0" max="1">
+        <input type="color" name="colorname" id="color">
+        <br>
+        <p>This, is a bucket!</p>
+        <textarea name="areaname" id="area" cols="30" rows="10" placeholder="Dear God..." minlength="11" maxlength="11"></textarea>
+        <br><br>
+        <input type="submit" value="MANDE SEUS DADOS CLEITON">
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME DE</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h3>Insira algo camarada</h3>
+    <form action="https://api.staticforms.dev/submit" method="post">
+        <input type="hidden"name="apikey"value="sf_j4a8fglll1b9ld81mdl4jfbb">
+        <fieldset>
+          <legend>Info Sua/da Conta</legend>
+            <!-- LABEL = TITULO, PODE REFERIR AO CLIQUE USANDO FOR -->
+            <label for="username_iguess">Seu nome ou algo do tipo: </label>
+            <!-- ID é ID, usado como REF EM JS OU NO ATRIB. for="" -->
+            <input type="text" id="username_iguess" name="username_iguessname" size="30" required> 
+            <br><br>
+            <label for="age">Idade: </label>
+            <input type="number" name="agename" id="age" required>
+            <br><br>
+            <label for="agedate">Em data também:</label>
+            <input type="date" name="agedatename" id="agedate" required>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" name="emailname" id="email" required>
+            <br><br>
+            <label for="password">Senha: </label>
+            <input type="password" name="passwordnane" id="password" required>
+            <br><br>
+        </fieldset>
+        <input type="submit" value="MANDE SEUS DADOS CLEITON">
+    </form>
+</body>
+</html>

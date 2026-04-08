@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'editundo'; 
+    src: url('editundo.ttf') format('truetype');
+}
+
+body{background-color:#020000;color:#FFFFFF;border-color:#FFFFFF}
+h1,p,h2,ol,li,a,body,input,textarea,form,select{color:#FFFFFF;font-family: "editundo";}
+a{color:#FFFF00}
+.red{color:#FF0000}
+.green{color:#00FF00}
+.blue{color:#0000FF}
+.yellow{color:#FFFF00}
+img{background-color: #FFFFFF;}
+input, textarea,select {
+    background-color: #020000;
+}
